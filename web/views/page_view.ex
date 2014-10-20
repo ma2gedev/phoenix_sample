@@ -1,4 +1,4 @@
 defmodule PhoenixSample.PageView do
-  use PhoenixSample.Views
+  use PhoenixSample.View
 
 end

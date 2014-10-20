@@ -5,7 +5,7 @@ defmodule PhoenixSample.Router do
     # Use the default browser stack.
     pipe_through :browser
 
-    get "/", PhoenixSample.PageController, :index, as: :pages
+    get "/", PhoenixSample.PageController, :index
   end
 
   # Other scopes may use custom stacks.

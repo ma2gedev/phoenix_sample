@@ -1,4 +1,4 @@
 defmodule PhoenixSample.LayoutView do
-  use PhoenixSample.Views
+  use PhoenixSample.View
 
 end
