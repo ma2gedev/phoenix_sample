@@ -1,3 +1,8 @@
+<div class="row">
+  <input type="text" id="message-box" placeholder="any comments?"/>
+  <div id="all-messages"></div>
+</div>
+
 <div class="jumbotron">
   <h2>Welcome to Phoenix!</h2>
   <p class="lead">Phoenix is an Elixir Web Framework targeting full-featured, fault tolerant applications with realtime functionality.</p>

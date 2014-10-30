@@ -1,5 +1,8 @@
 defmodule PhoenixSample.Router do
   use Phoenix.Router
+  use Phoenix.Router.Socket, mount: "/ws"
+
+  channel "channel", PhoenixSample.Chat
 
   scope "/" do
     # Use the default browser stack.
